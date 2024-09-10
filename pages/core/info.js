@@ -128,8 +128,8 @@ const changedInfo = {
   //Code xác minh của website trên Google Search
   metaGoogleSiteVerification: "",
 
-  //iframe map
-  iframeMapLink : "https://storage.googleapis.com/maps-solutions-uciyad28n8/neighborhood-discovery/znds/neighborhood-discovery.html",
+  //iframe map   link cũ: https://storage.googleapis.com/maps-solutions-uciyad28n8/neighborhood-discovery/znds/neighborhood-discovery.html
+  iframeMapLink : "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d5051.9308397264895!2d-3.5332207!3d50.7205807!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x486da43af0c1af77%3A0xe478b5a726342f33!2sPrincess%20Nails%20%26%20Spa%20Exeter!5e0!3m2!1sen!2s!4v1725866267054!5m2!1sen!2s",
 
   // Các ảnh của tiệm
   ogImage:"https://princess-nails-exeter.web.app/images/desktop-nail-salon-happy-customer-1.jpg",
@@ -439,8 +439,8 @@ const schemaInput = {
   schemaRatingValue: "4.6",
   schemaBestRating: "5",
 
-  schemaGeoLatitude: 50.721704169283726,
-  schemaLongitude: -3.533617680425276,
+  schemaGeoLatitude: 50.721694,
+  schemaLongitude: -3.533614,
 
   schemaUrl: changedInfo.businessWebsite,
 
