@@ -78,8 +78,8 @@ const businessOpeningTimeInput = {
   satOpeningTime: "09:00",
   satClosingTime: "18:30",
 
-  sunOpeningTime: "",
-  sunClosingTime: "",
+  sunOpeningTime: "10:00",
+  sunClosingTime: "17:00",
 }
 
 const processedBusinessOpeningTime = {
@@ -91,7 +91,7 @@ const processedBusinessOpeningTime = {
   workingTimeThu: "Thursday: " + businessOpeningTimeInput.thuOpeningTime + "–" + businessOpeningTimeInput.thuClosingTime,
   workingTimeFri: "Friday: " + businessOpeningTimeInput.friOpeningTime + "–" + businessOpeningTimeInput.friClosingTime,
   workingTimeSat: "Saturday: " + businessOpeningTimeInput.satOpeningTime + "–" + businessOpeningTimeInput.satClosingTime,
-  workingTimeSun: "Sunday: Closed" + businessOpeningTimeInput.sunOpeningTime + "" + businessOpeningTimeInput.sunClosingTime,
+  workingTimeSun: "Sunday: " + businessOpeningTimeInput.sunOpeningTime + "–" + businessOpeningTimeInput.sunClosingTime,
 }
 
 const changedInfo = {
@@ -433,13 +433,13 @@ const schemaInput = {
 
   schemaPriceRange: "££",
   //Cần đổi tên khách
-  schemaPersonReviewAuthorName: "Karolina Hamilton",
+  schemaPersonReviewAuthorName: "Nguyen David (David)",
   //Xem điểm review trung bình của tiệm là bao nhiêu
-  schemaRatingValue: "4.6",
+  schemaRatingValue: "4.8",
   schemaBestRating: "5",
 
-  schemaGeoLatitude: 50.721694,
-  schemaLongitude: -3.533614,
+  schemaGeoLatitude: 52.42143775732315,
+  schemaLongitude: -1.8791952543819508,
 
   schemaUrl: changedInfo.businessWebsite,
 
@@ -583,7 +583,7 @@ const pageContent = {
   ourStoryDescription: "Located at " + changedInfo.businessAddressLevel1 + ", we are a nail shop in " + changedInfo.businessAddressLevel2 + ". Skilled manicurists and pedicurists look forward to bringing you the best products and services. We are always researching and learning the best products and services, trendy nails, to bring more and more satisfaction to customers who are coming to us.",
 
   //dong-vien-1.js
-  section1Heading: "We are experienced manicurists and pedicurists in " + changedInfo.businessAddressLevel2,
+  section1Heading: "We are " + seoKeyword.seoKeyword3 + " experienced manicurists and pedicurists",
   section1Description: "Are you looking for nail salon in " + changedInfo.businessAddressLevel2 + "? One of the best nail salon in " + changedInfo.businessAddressLevel3 + "? We are proud to say that here we are. We can give you amazing nails with our acrylic extensions and great relaxation with our manicure and pedicure services. We cater to both men and women. You can rest assured and get a sense of satisfaction when you come to us",
 
   //dong-vien-2.js
@@ -598,23 +598,23 @@ const pageContent = {
   section4Heading: "The best " + seoKeyword.seoKeyword1,
 
   // nhan-manh-2.js
-  section5Heading: "DON'T LET DOWN YOUR NAILS",
-  section5Description: "For a flawless manicure and pedicure, visit us at " + changedInfo.businessName + ". We offer a variety of polish and acrylic options to suit everyone's needs. 😸💅",
+  section5Heading: "EXPERIENCE UNMATCHED NAIL CARE",
+  section5Description: "Step into our " + seoKeyword.seoKeyword15 + " for a pampering nail care experience like no other. Our team of skilled technicians at " + changedInfo.businessName + " will help you select the best nail polish and acrylic options to meet your needs and preferences. 😊💅",
 
   // nhan-manh-3.js
   section6Heading: "OUR MISSION",
-  section6Description: "Going to the " + seoKeyword.seoKeyword1 + " is like a visit to your favorite person ever, who always makes you feel amazing no matter what. Visiting a " + seoKeyword.seoKeyword1 + " can have so many great side benefits: it can be a time to take care of yourself, a way to make you feel better about yourself, and an opportunity for you and your friends or family to chat with each other",
+  section6Description: "Our " + seoKeyword.seoKeyword15 + " is more than just a place to get your nails done - it's a place to unwind and recharge. Let us help you feel your best with our wide range of nail care services and personalized attention. 😊💅",
 
 
   // nhan-manh-4.js
   section7Heading: "SERVICES",
-  section7Description: "Gorgeous nails are a great way to make a good first impression! Give your hands the love they deserve and call our " + seoKeyword.seoKeyword1 + " now for an appointment. We have a wide variety of colors for each occasion. We know what you want, and we’re here to give you amazing nails with our acrylic extensions and the best relaxation for your feet.",
+  section7Description: "Experience the ultimate in nail care and pampering at our nail salon " + changedInfo.businessAddressLevel2 + ". Our expert technicians will help you choose the perfect nail polish color or acrylic extension to match your style and preferences, leaving you with gorgeous nails and a renewed sense of confidence.",
 
   // nhan-manh-5.js
-  section8Heading: "ENJOYABLE & RELAXATION",
-  section8Description: "Getting your nails done should be enjoyable! At " + changedInfo.businessName + ", our focus is to help you relax so you can enjoy the experience. It’s your day made for you. Our " + changedInfo.businessAddressLevel2 + " nail salon will make it fun and memorable for you with our wide selection of nail colors, our pink gowns, or by customizing your experience.⁣",
+  section8Heading: "UNWIND & INDULGE",
+  section8Description: "Getting your nails done should be a fun and memorable experience, and at " + changedInfo.businessName + ", we couldn't agree more! We believe that our " + changedInfo.businessAddressLevel2 + " nail salon is the perfect place to unwind and treat yourself to some much-needed pampering. Our skilled technicians will help you select the best nail polish and acrylic options to meet your needs and preferences, and we offer a wide range of colors to suit every occasion.⁣",
 
-  carouselHeading: "One of the best nails salon in " + changedInfo.businessAddressLevel2 + " here to serve you",
+  carouselHeading: "Transform your nails and feel your best with our top-notch nail salon " + changedInfo.businessAddressLevel2,
 
   customerReviewHeading: "WHAT OUR CUSTOMERS SAY",
   customerReviewDescription: "",
@@ -1124,7 +1124,7 @@ const serviceList1 = {
 
   service57: "BIAB builder gel on natural nails",
   service57Time: "60 mins",
-  service57Price: "28",
+  service57Price: "30",
   service57Description: "This service will leave your nails looking stunning and fabulous, making you feel confident and beautiful. The BIAB builder gel creates a long-lasting and durable finish for your nails, perfect for those who desire low maintenance and chip-free nails. Our skilled technicians will carefully apply the builder gel to create the look you desire, leaving you with salon-quality nails that will last for weeks. So, why not treat yourself and embrace the feeling of self-love by booking a BIAB Builder Gel Fullset today!",
 
   service58: "Full Set Cat Eye",
@@ -1206,7 +1206,7 @@ const serviceList2 = {
 
   service11: "Take off Shellac (Foot)",
   service11Time: "20 mins",
-  service11Price: "10",
+  service11Price: "7",
   service11Description: "Just take off shellac",
 
 };
