@@ -859,7 +859,7 @@ const serviceList1 = {
 
   service4: "Acrylic Infill with Shellac",
   service4Time: "45 mins",
-  service4Price: "28",
+  service4Price: "26",
   service4Description: "Nail refills are recommended around 3 to 4 weeks from the date of the initial application. A quick nail refill is the best way to make the most of your nail extensions.",
 
   service5: "Gel Powder Full Set with normal nail polish",
@@ -964,7 +964,7 @@ const serviceList1 = {
 
   service25: "BIAB builder gel Infill",
   service25Time: "30 mins",
-  service25Price: "28",
+  service25Price: "26",
   service25Description: "",
 
   service26: "Long nails (extra)",
@@ -1094,7 +1094,7 @@ const serviceList1 = {
 
   service51: "Take off Acrylic (Foot)",
   service51Time: "15 mins",
-  service51Price: "12",
+  service51Price: "10",
   service51Description: "",
 
   service52: "Take off BIAB (Hands)",
@@ -1489,7 +1489,7 @@ const serviceList5 = {
 
   service18: "Chrome (10 Nails)",
   service18Time: "",
-  service18Price: "8",
+  service18Price: "5",
   service18Description: "Our skilled technicians will expertly apply a layer of chrome finish to give your nails a metallic shine that will have everyone envious. From classic silver to bold and brilliant gold, we have a range of chrome colors to choose from. Embrace your feminine side and pamper yourself with a touch of glamour with Chrome Nails. Get ready to turn heads and feel confident in your skin with this chic and sophisticated manicure. Your nails deserve the best, come and visit us today!",
 
   service19: "Nail Art (from)",
